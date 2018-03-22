@@ -1,0 +1,32 @@
+body {
+    border: 20px solid #5F9EA0;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+p{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.date{
+    color: #5F9EA0;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.quote{
+    border-left: 5px solid #696969;
+    padding-left: 5px;
+}
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr{  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
